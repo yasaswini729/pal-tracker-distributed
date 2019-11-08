@@ -4,7 +4,7 @@ applications:
   instances: 1
   memory: 512M
   routes:
-  - route: allocations-pal-shivaraj.apps.api.run.pivotal.io
+  - route: allocations-pal-shivaraj.cfapps.io
   path: Applications/AllocationsServer/bin/Release/netcoreapp2.1/publish
   # env:
   #   REGISTRATION_SERVER_ENDPOINT: http://registration-shivaraj.apps.evans.pal.pivotal.io

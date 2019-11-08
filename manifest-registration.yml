@@ -4,7 +4,7 @@ applications:
   instances: 1
   memory: 512M
   routes:
-  - route: registration-shivaraj.apps.api.run.pivotal.io
+  - route: registration-shivaraj.cfapps.io
   path: Applications/RegistrationServer/bin/Release/netcoreapp2.1/publish
   services:
   - tracker-registration-database
