@@ -6,7 +6,7 @@ applications:
   routes:
   - route: allocations-pal-shivaraj.apps.evans.pal.pivotal.io
   path: Applications/AllocationsServer/bin/Release/netcoreapp2.1/publish
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-shivaraj.apps.evans.pal.pivotal.io
+  # env:
+  #   REGISTRATION_SERVER_ENDPOINT: http://registration-shivaraj.apps.evans.pal.pivotal.io
   services:
   - tracker-allocations-database
